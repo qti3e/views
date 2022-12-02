@@ -1,0 +1,10 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{ min-height: 100vh; margin:0; }
+
+/* The article fills all the space between header & footer */
+body{ display:flex; flex-direction:column; }
+article{ flex:1; }
